@@ -59,8 +59,8 @@ public class DreamController {
 
     // ✅ Helper: Generate Image from Cloudflare Worker
     private String generateDreamImage(String prompt) {
-        String apiUrl = "https://image-api.abishek6004.workers.dev";
-        String apiKey = "12345678";
+        String apiUrl = "your-cloudflare-worker-endpoint"; // Replace with your Cloudflare Worker URL
+        String apiKey = "YourapiKeyHere12345"; // Replace with your actual API key
 
         RestTemplate restTemplate = new RestTemplate();
 
